@@ -3,88 +3,114 @@
 <head>
 	<meta charset="UTF-8">
 	<title>About.me</title>
+	<link href="https://fonts.googleapis.com" rel="preconnect">
+	<link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300..700&display=swap"
+	      rel="stylesheet">
+	<link href="design.css" rel="stylesheet">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
 	      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" rel="stylesheet">
 </head>
-<body>
+<body style="background-color: #03415f">
 
-
-<ul class="nav nav-underline">
+<!--Nav Bar-->
+<ul class="nav nav-underline custom-nav">
 	<li class="nav-item">
-		<a aria-current="page" class="nav-link active" href="#">Home</a>
+		<a aria-current="page" class="nav-link" href="#Home">Home</a>
 	</li>
 	<li class="nav-item">
-		<a class="nav-link" href="#">About me</a>
+		<a class="nav-link" href="#aboutmeline">About me</a>
 	</li>
 	<li class="nav-item">
-		<a class="nav-link" href="#">Skills</a>
+		<a class="nav-link" href="#skillsline">Skills</a>
 	</li>
 	<li class="nav-item">
-		<a aria-disabled="true" class="nav-link ">Projects</a>
+		<a class="nav-link" href="#projectsline">Projects</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" href="#achievementsline">Achievements</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" href="#contactline">ContactMe</a>
 	</li>
 </ul>
 
 <!--Introduction-->
 
-<div class="title name">
-	<br><br>
-	<h1 class="Name">Dharmraj Vaghela</h1>
+<div class="title" id="Home">
+	<div class="intro">
+		<h1 class="header Name">Dharmraj Vaghela</h1>
+		
+		<h4 class="header Name">Full Stack Developer</h4>
+		<br>
+		<h6 class="para Name">Aspiring full-stack developer,<br>
+			passion for building clean and functional web apps,<br>
+			Currently exploring real-world projects and open-source contributions.</h6>
+	</div>
 	
-	<h4 class="Name">Full Stack Developer</h4>
-	<br>
-	<h6 class="intro_para">Aspiring full-stack developer,<br>
-		passion for building clean and functional web apps,<br>
-		Currently exploring real-world projects and open-source contributions.</h6>
+	<div class="image-wrapper">
+		<img alt="photo" class="image" src="image.jpg">
+	</div>
+
+
 </div>
+<br>
 <hr>
+<br>
 <!--About Me-->
-<div class="title">
-	<h1 class="header aboutme">About Me</h1>
-	<p class="para aboutme">
-		Hey! I'm Dharmraj, a student at DAIICT studying ICT.<br>
-		I love building things with code —<br>
-		whether it’s a full-stack web app, a Python script, or a cool desktop project with PyQt5.<br>
-		I’ve been learning C, C++, Python, and JavaScript, and I really enjoy solving problems and creating clean,
-		useful designs.<br>
-		Lately, I’ve been focused on mastering full-stack development and improving my skills.<br>
-		by building real-world projects and learning from others in the dev community.,<br>
-	</p>
+<div class="Aboutme" id="aboutmeline">
+	<div class="aboutme-block">
+		<h1 class="header">About Me</h1>
+		<br>
+		<br>
+		<br>
+		<p class="para">
+			Hey! I'm Dharmraj, a student at DAIICT studying ICT.<br>
+			I love building things with code —<br>
+			whether it’s a full-stack web app, a Python script, or a cool desktop project with PyQt5.<br>
+			I’ve been learning C, C++, Python, and JavaScript, and I really enjoy solving problems and creating clean,
+			useful designs.<br>
+			Lately, I’ve been focused on mastering full-stack development and improving my skills<br>
+			by building real-world projects and learning from others in the dev community.<br>
+		</p>
+	</div>
 </div>
 <hr>
+
 
 <!--Skills-->
 
-<div class="skills">
+<div class="skills" id="skillsline">
 	<h1 class="header skills">Tech Stack</h1>
 	<p class="para skills">I work with C++ for Data structures and algorithms, ESP-32 programming, and sensors.<br>
 		Python is my go-to for building GUIs with PyQt5 and handling APIs and JSON data.<br>
 		On the web side, I’m comfortable with HTML, CSS (Bootstrap, Flexbox, Grid), and JavaScript.</p>
-	<ul class="ul skills">
-		<li>C++
-			<ul class="ul skills">
-				<li>DSA</li>
-				<li>Microcontroller programming(ESP-32)</li>
-				<li>Sensor integration</li>
-			</ul>
-		</li>
-		<li>Python
-			<ul class="ul skills">
-				<li>DSA</li>
-				<li>PyQt5</li>
-				<li>APIs & JSON data</li>
-			</ul>
-		</li>
-		<li>HTML</li>
-		<li>CSS
-			<ul class="ul skills">
-				<li>Bootstrap</li>
-				<li>Flexbox</li>
-				<li>Grid</li>
-			</ul>
-		</li>
-		<li>JavaScript</li>
-	</ul>
+	<!--	<ul class="ul skills">-->
+	<!--		<li>C++-->
+	<!--			<ul class="ul skills">-->
+	<!--				<li>DSA</li>-->
+	<!--				<li>Microcontroller programming(ESP-32)</li>-->
+	<!--				<li>Sensor integration</li>-->
+	<!--			</ul>-->
+	<!--		</li>-->
+	<!--		<li>Python-->
+	<!--			<ul class="ul skills">-->
+	<!--				<li>DSA</li>-->
+	<!--				<li>PyQt5</li>-->
+	<!--				<li>APIs & JSON data</li>-->
+	<!--			</ul>-->
+	<!--		</li>-->
+	<!--		<li>HTML</li>-->
+	<!--		<li>CSS-->
+	<!--			<ul class="ul skills">-->
+	<!--				<li>Bootstrap</li>-->
+	<!--				<li>Flexbox</li>-->
+	<!--				<li>Grid</li>-->
+	<!--			</ul>-->
+	<!--		</li>-->
+	<!--		<li>JavaScript</li>-->
+	<!--	</ul>-->
 	<p class="para skills">
 		I’m planning to advance into full-stack development with React and Node.js, building dynamic and scalable web
 		apps.<br>
@@ -92,82 +118,87 @@
 		workflows.
 	</p>
 </div>
-<hr>
-<!--Projects-->
-<div class="Projects">
-	<h1 class="text-center mb-4">Successfully Executed Projects</h1>
-	<div class="row row-cols-1 row-cols-md-3 g-4">
-		
-		<!-- Portfolio Website -->
-		<div class="col">
-			<div class="card h-100 shadow">
-				<div class="card-body">
-					<h5 class="card-title">Portfolio Website</h5>
-					<p class="card-text">
-						A responsive and minimal personal portfolio built using HTML, CSS, and JavaScript.
-						Showcases my skills, projects, and future learning roadmap with a clean UI.
-					</p>
-				</div>
-				<div class="card-footer bg-transparent border-0">
-					<a class="btn btn-outline-primary" href="#">GitHub Link</a>
-				</div>
-			</div>
-		</div>
-		
-		<!-- PyQt5 Project -->
-		<div class="col">
-			<div class="card h-100 shadow">
-				<div class="card-body">
-					<h5 class="card-title">Restaurant Management System (PyQt5)</h5>
-					<p class="card-text">
-						A full-featured desktop app built with PyQt5, supporting table booking, order handling, and
-						billing.
-						Won 1st place in Winter of Code 7.0 by MSTC-DAIICT.
-					</p>
-				</div>
-				<div class="card-footer bg-transparent border-0">
-					<a class="btn btn-outline-primary" href="#">GitHub Link</a>
-				</div>
-			</div>
-		</div>
-		
-		<!-- MYOSA Project -->
-		<div class="col">
-			<div class="card h-100 shadow">
-				<div class="card-body">
-					<h5 class="card-title">MYOSA – Gesture-Controlled Home Security System</h5>
-					<p class="card-text">
-						Developed a smart home automation and security system using ESP-32 and hand gesture recognition.
-						Combined microcontroller programming with sensor integration for real-time control.
-					</p>
-				</div>
-				<div class="card-footer bg-transparent border-0">
-					<a class="btn btn-outline-primary" href="#">Project Document</a>
-				</div>
-			</div>
-		</div>
-	
-	</div>
-</div>
-<hr>
-<!-- Achievements -->
 
-<div class="Achievements">
-	<h1 class="header Achievements">Achievements</h1>
-	<div class="Achievements Container">
-		<ul class="para Achievements">
-			<li>
-				Secured <strong>1st Prize</strong> in <em>Winter of Code 7.0</em> by MSTC DAIICT<br>
-				for developing a full-featured Restaurant Management System using PyQt5,<br>
-				showcasing skills in UI design, order management, and billing automation.
-			</li>
-		</ul>
+<hr>
+
+
+<!--Projects-->
+<div class="Projects projects-container" >
+	<div class="Projects" id="projectsline">
+		<h1 class="text-center mb-4 header">Successfully Executed Projects</h1>
+		<div class="row row-cols-1 row-cols-md-3 g-4">
+			
+			<!-- Portfolio Website -->
+			<div class="col">
+				<div class="card h-100 shadow">
+					<div class="card-body">
+						<h5 class="card-title">Portfolio Website</h5>
+						<p class="card-text">
+							A responsive and minimal personal portfolio built using HTML, CSS, and JavaScript.
+							Showcases my skills, projects, and future learning roadmap with a clean UI.
+						</p>
+					</div>
+					<div class="card-footer border-0">
+						<a class="btn btn-outline-primary" href="#">GitHub Link</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- PyQt5 Project -->
+			<div class="col">
+				<div class="card h-100 shadow">
+					<div class="card-body">
+						<h5 class="card-title">Restaurant Management System (PyQt5)</h5>
+						<p class="card-text">
+							A full-featured desktop app built with PyQt5, supporting table booking, order handling, and
+							billing.
+							Won 1st place in Winter of Code 7.0 by MSTC-DAIICT.
+						</p>
+					</div>
+					<div class="card-footer  border-0">
+						<a class="btn btn-outline-primary" href="#">GitHub Link</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- MYOSA Project -->
+			<div class="col">
+				<div class="card h-100 shadow">
+					<div class="card-body">
+						<h5 class="card-title">MYOSA – Gesture-Controlled Home Security System</h5>
+						<p class="card-text">
+							Developed a smart home automation and security system using ESP-32 and hand gesture recognition.
+							Combined microcontroller programming with sensor integration for real-time control.
+						</p>
+					</div>
+					<div class="card-footer border-0">
+						<a class="btn btn-outline-primary" href="#">Project Document</a>
+					</div>
+				</div>
+			</div>
+		
+		</div>
 	</div>
 </div>
 <hr>
+<!--&lt;!&ndash; Achievements &ndash;&gt;-->
+
+<!--<div class="Achievements" id="achievementsline">-->
+<!--	<h1 class="header Achievements">Achievements</h1>-->
+<!--	<div class="Achievements Container">-->
+<!--		<ul class="para Achievements">-->
+<!--			<li>-->
+<!--				Secured <strong>1st Prize</strong> in <em>Winter of Code 7.0</em> by MSTC DAIICT<br>-->
+<!--				for developing a full-featured Restaurant Management System using PyQt5,<br>-->
+<!--				showcasing skills in UI design, order management, and billing automation.-->
+<!--			</li>-->
+<!--		</ul>-->
+<!--	</div>-->
+<!--</div>-->
+<!--<hr>-->
 <!--Contact Me-->
 
-<div class="Contact">
+<div class="Contact" id="contactline">
 	<h1 class="header Contact">Drop Me a Line</h1>
 	<div class="list-group my-4">
 		<div aria-current="true" class="list-group-item active">
@@ -184,7 +215,8 @@
 			                              target="_blank">Dharmraj Vaghela</a>
 		</div>
 		<div class="list-group-item">
-			<strong>GitHub:</strong> <a href="https://github.com/Dharmraj06?tab=repositories" target="_blank">Dharmraj06</a>
+			<strong>GitHub:</strong> <a href="https://github.com/Dharmraj06?tab=repositories"
+			                            target="_blank">Dharmraj06</a>
 		</div>
 	</div>
 </div>

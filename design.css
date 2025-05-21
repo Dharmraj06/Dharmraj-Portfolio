@@ -1,0 +1,217 @@
+body {
+    background: #03415f;
+}
+
+.custom-nav {
+    background-color: #03415f;
+    padding: 10px 15px;
+    /*border-bottom: 10px;*/
+    /*border-bottom-color: #032a3d;*/
+    justify-content: center;
+    align-items: center;
+
+}
+
+.custom-nav .nav-link {
+    color: #0AD552FF;
+    margin: 20px;
+}
+
+.custom-nav .nav-link.active {
+    color: #0AD552FF;
+}
+
+
+.custom-nav .nav-link:hover {
+    color: #0AD552FF;
+}
+
+
+.title {
+
+    background: #03415f;
+    padding: 145px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+hr {
+    border: none;
+    border-top: 5px dotted #0b749f;
+}
+
+.header {
+    color: #0AD552FF;
+    font-size: 70px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+.header.Name {
+    font-size: 60px;
+    text-align: left;
+    grid-column: span 2;
+}
+
+.image-wrapper {
+    background: linear-gradient(45deg, #03415f, #02735E, #0AD552FF);
+    border-radius: 50%;
+    padding: 10px; /* Thickness of the border */
+    display: inline-block;
+    width: 420px; /* slightly larger than image */
+    height: 420px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    display: block;
+}
+
+
+.Name {
+    padding-left: 50px;
+    color: #0AD552FF;
+}
+
+.Aboutme {
+    background-color: #03415f;
+    padding: 30px;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aboutme-block {
+    background-color: #055075;
+    padding: 50px 60px;
+    border-radius: 10px;
+    border: 3px solid #03415f;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    color: #000000;
+    max-width: 1000px;
+    width: 90vw;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+
+.Aboutme.header {
+    flex-basis: 200px;
+}
+
+
+.Projects {
+    height: 100%;
+}
+
+.para {
+    color: #03A648;
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.skills {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header.skills {
+    flex-basis: 50px;
+}
+
+.ul.skills {
+    color: #03A648;
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+
+    flex-basis: 20px;
+}
+
+.Projects {
+    padding: 50px;
+}
+
+.projects-container {
+    background-color: #055075;
+    padding: 50px;
+    margin: 40px;
+    border-radius: 20px;
+    border: 3px solid #03415f;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-text, .btn {
+    color: #03A648 !important;
+    font-size: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card {
+    border: 2px solid #028b76 !important;
+}
+
+.card-title {
+    color: #03A648 !important;
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+}
+
+.card-body {
+    background-color: #055075;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    background-color: #025951 !important;
+}
+
+.btn-outline-primary {
+    border-color: #07a999 !important;
+}
+
+.projects-container .btn-outline-primary:hover {
+    background-color: #03415f;
+    color: #0ad552;
+}
+
+.Contact {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-group {
+    width: 75%;
+}
+
+.list-group-item.active {
+    background-color: #0a4f6b !important;
+    border-color: #0a4f6b !important;
+}
+
+.list-group-item {
+    background-color: #025951 !important;
+    border-color: #0a4f6b !important;
+    color: #03A648 !important;
+
+}
